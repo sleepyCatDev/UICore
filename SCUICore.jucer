@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="M1yr5k" name="SCUICore" projectType="library" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              headerPath="../../Headers">
+  <MAINGROUP id="gu34Ey" name="SCUICore">
+    <GROUP id="{99D63C0E-3D58-E122-6BE1-C24C44F4E775}" name="Source">
+      <FILE id="lSP0Jv" name="SCParameterSlider.cpp" compile="1" resource="0"
+            file="Source/SCParameterSlider.cpp"/>
+      <FILE id="a48ipB" name="SCTestSlider.cpp" compile="1" resource="0"
+            file="Source/SCTestSlider.cpp"/>
+    </GROUP>
+    <GROUP id="{A08BAF3D-4DC1-8188-FD3F-9EE6667AF8BE}" name="Headers">
+      <FILE id="W3vss8" name="SCControlBase.h" compile="0" resource="0" file="Headers/SCControlBase.h"/>
+      <FILE id="GBEtjn" name="SCParameterSlider.h" compile="0" resource="0"
+            file="Headers/SCParameterSlider.h"/>
+      <FILE id="CQn7wv" name="SCTestSlider.h" compile="0" resource="0" file="Headers/SCTestSlider.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SCUICore"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SCUICore"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../Juce/Modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Juce/Modules"/>
+        <MODULEPATH id="juce_events" path="../../../Juce/Modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Juce/Modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Juce/Modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Juce/Modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Juce/Modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../Juce/Modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SCUICore"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SCUICore"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../Juce/Modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Juce/Modules"/>
+        <MODULEPATH id="juce_events" path="../../../Juce/Modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Juce/Modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Juce/Modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Juce/Modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Juce/Modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../Juce/Modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
